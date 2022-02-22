@@ -1,0 +1,89 @@
+.headling_style {
+    padding: 30px 0;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(43, 41, 39);
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: azure;
+
+    width: 37.25%;
+
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0px 13px 18px -8px rgba(0, 0, 0, 0.1);
+
+    transform: scale(1.05, 1.05);
+}
+
+.card__img {
+    width: 100%;
+    height: 335px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card__info {
+    background-color: aliceblue;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    background-color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.card__category {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: aliceblue;
+    text-transform: capitalize;
+}
+
+.desc {
+    height: 78px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 auto 15px;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    text-align: left;
+}
+
+@media (max-width: 76px) {
+    .card {
+        float: none;
+        margin: 5%;
+        width: 90%;
+    }
+}

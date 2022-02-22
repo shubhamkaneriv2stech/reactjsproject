@@ -1,0 +1,51 @@
+.home {
+  text-align: center;
+  background-color: rgb(237, 237, 245);
+}
+
+.sidebar {
+  background-color: rgb(245, 240, 240);
+  width: 292px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.main_div {
+  height: 10%;
+  width: 1085px;
+  text-decoration: white;
+  position: absolute;
+  left: 280px;
+  top: 0;
+  bottom: 0;
+}
+
+.view {
+  width: 1080px;
+  text-align: center;
+  left: 290px;
+  top: 40px;
+  bottom: 0;
+  padding-left: 15px;
+  overflow-x: auto;
+}
+
+.listItem li {
+  position: relative;
+  display: block;
+
+  background-color: rgb(245, 240, 240);
+  border: 0px rgb(245, 240, 240);
+  padding: 16px;
+}
+
+.listItem {
+  padding: 0px;
+}
+
+.img {
+  margin-top: 18px;
+  margin-left: 68px;
+}

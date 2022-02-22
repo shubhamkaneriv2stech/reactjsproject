@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Python",
+    "student": 13,
+    "fees": 30
+  },
+  {
+    "name": "Java",
+    "student": 18,
+    "fees": 50
+  },
+  {
+    "name": "Html",
+    "student": 14,
+    "fees": 80
+  },
+  {
+    "name": "Php",
+    "student": 5,
+    "fees": 10
+  },
+  {
+    "name": "Go",
+    "student": 50,
+    "fees": 29
+  },
+  {
+    "name": "Angular",
+    "student": 58,
+    "fees": 30
+  },
+  {
+    "name": "React",
+    "student": 40,
+    "fees": 21
+  },
+  {
+    "name": "Ruby",
+    "student": 42,
+    "fees": 78
+  }
+]
